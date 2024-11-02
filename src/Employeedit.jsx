@@ -39,7 +39,7 @@ const Employeedit = () => {
     <div className="flex flex-row justify-center items-center " style={{ minHeight: "100vh" }} >
       <div className="flex  justify-center items-center bg-white rounded ">
         <form className="m-10 text-center">
-          <h1 className="text-center font-bold">Employee Details</h1>
+          <h1 className="text-center font-bold">Movie Details</h1>
           <div className="m-3">
             <TextField id="outlined-basic" onChange={e => setEmploye({ ...employe, Id: e.target.value })} label="ID" variant="outlined" className='w-100 ' />
           </div>
